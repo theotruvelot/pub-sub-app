@@ -32,6 +32,7 @@ jobs:
           image: ${{ env.dockerregistry }}/${{ env.IMAGE_NAME }}
           tags: "latest"
           dockerfile: ${{ env.workdir }}/Dockerfile
+          directory: ${{ env.workdir }}
           registry: ${{ env.dockerregistry }}
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
