@@ -12,7 +12,7 @@ env:
     dockerregistry: ${{ secrets.DOCKER_HOSTNAME }}
     IMAGE_NAME: "ttruvelot/pubsub-app"
 jobs:
-
+  
   deploy-api:
     permissions:
       contents: read

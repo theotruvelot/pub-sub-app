@@ -37,7 +37,7 @@ spec:
                 secretKeyRef:
                   key: rabbit-username
                   name: rabbit-username
-          image: acrmfolabsform.azurecr.io/ttruvelot_pubsub-app:latest
+          image: acrmfolabsform.azurecr.io/ttruvelot/pubsub-app:latest
           ports:
             - containerPort: 8080
               protocol: TCP
