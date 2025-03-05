@@ -24,10 +24,10 @@
     on:
       push:
         branches:
-          - develop
+          - maalsi24
       pull_request:
         branches:
-          - develop
+          - maalsi24
       workflow_dispatch:
     
     jobs:
