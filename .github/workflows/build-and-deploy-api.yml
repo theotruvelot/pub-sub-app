@@ -13,7 +13,7 @@ env:
     IMAGE_NAME: "ttruvelot_pubsub-app"
 jobs:
 
-  deploy:
+  deploy-api:
     permissions:
       contents: read
       packages: write
