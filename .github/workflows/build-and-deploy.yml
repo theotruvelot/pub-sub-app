@@ -8,7 +8,7 @@ on:
     workflow_dispatch:
 
 env: 
-    workdir: "api"
+    workdir: "RabbitMqProductAPI"
     dockerregistry: ${{ secrets.DOCKER_HOSTNAME }}
     IMAGE_NAME: "pubsub-app"
 jobs:
