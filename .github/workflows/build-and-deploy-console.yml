@@ -4,11 +4,11 @@ on:
     push:
         branches: ["maalsi24"]
         paths:
-            - 'RabbitMqProduct.ConsoleApplication/**'
+            - 'RabbitMQProduct.ConsoleApplication/**'
     workflow_dispatch:
 
 env: 
-    workdir: "RabbitMqProduct.ConsoleApplication"
+    workdir: "RabbitMQProduct.ConsoleApplication"
     dockerregistry: ${{ secrets.DOCKER_HOSTNAME }}
     IMAGE_NAME: "ttruvelot_pubsub-console"
 jobs:
